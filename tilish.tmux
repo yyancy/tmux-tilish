@@ -151,7 +151,7 @@ fi
 # Switch layout with Alt + <mnemonic key>. The mnemonics are `s` and `S` for
 # layouts Vim would generate with `:split`, and `v` and `V` for `:vsplit`.
 # The remaining mappings based on `z` and `t` should be quite obvious.
-bind_layout "${mod}s" 'main-horizontal'
+# bind_layout "${mod}s" 'main-horizontal'
 bind_layout "${mod}S" 'even-vertical'
 bind_layout "${mod}v" 'main-vertical'
 bind_layout "${mod}V" 'even-horizontal'
